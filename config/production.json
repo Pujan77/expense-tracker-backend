@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_CLUSTER}/expense-tracker?retryWrites=true&w=majority",
+  "jwtSecret": "${process.env.JWT_SECRET}",
+  "jwtExpiration": 86400
+}
